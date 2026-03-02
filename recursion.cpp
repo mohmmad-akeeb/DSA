@@ -104,7 +104,13 @@ bool palendrom(string s){
     }
     return true;
 }
-        
+
+int fib(int n) {
+    if(n<=1)
+        return n;
+    else
+        return fib(n-1) + fib(n-2);
+}
 int main(){
 
     string str;
